@@ -17,22 +17,7 @@ public class stepdefnition {
 	
 	
 
-    @Given("^chrome driver triggered$")
-    public void chrome_driver_triggered() throws Throwable {
-       System.out.println("Siteopen");
-    }
-
-    @When("^Browser launched$")
-    public void browser_launched() throws Throwable {
-    	 System.out.println("Chrome Opennned");
-    }
-
-    @Then("^Chrome browser displayed$")
-    public void chrome_browser_displayed() throws Throwable {
-    	 System.out.println("Chrome able to see");
-    }
-	
-
+   
     @Given("^user landing page$")
     public void user_landing_page() throws Throwable {
     	 System.out.println("Rafiiiiii");

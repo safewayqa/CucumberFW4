@@ -1,9 +1,5 @@
 Feature: Login page test
 
-Background:
-Given chrome driver triggered
-When Browser launched
-Then Chrome browser displayed
 
 @RegTest @AUTO-2
 Scenario: Home page testing the aaplication
