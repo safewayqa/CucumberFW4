@@ -1,7 +1,7 @@
 Feature: Login page test
 
 
-@RegTest @AUTO-2
+@RegTest @WOO-2
 Scenario: Home page testing the aaplication
 Given user landing page
 When user enters the user name "Rafi" and password "Nargees"
