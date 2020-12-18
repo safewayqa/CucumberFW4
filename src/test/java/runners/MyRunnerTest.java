@@ -9,7 +9,7 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 		features="src/test/java/fetures",monochrome=true,
-		glue="stepdef",tags="@RegTest", plugin= {"pretty","json:target/cucumber/cucumber.json"})
+		glue="stepdef",tags="@RegTest", plugin= {"pretty","json:target/cucumber.json"})
 
 public class MyRunnerTest {
 	
